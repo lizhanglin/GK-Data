@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kriging_Parameters</class>
+ <widget class="QWidget" name="Kriging_Parameters">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>1048</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kriging Parameters</string>
+  </property>
+  <property name="AlgorithmCategory" stdset="0">
+   <string>Estimation</string>
+  </property>
+  <property name="AlgorithmDescription" stdset="0">
+   <string>GK Estimation with LVA by GAs</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget3">
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>General and Data</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QGroupBox" name="SimulationGrid">
+         <property name="maximumSize">
+          <size>
+           <width>32767</width>
+           <height>140</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>Kriging Grid</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="GridSelector" name="Grid_Name">
+            <property name="currentIndex">
+             <number>-1</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="TextLabel2">
+            <property name="text">
+             <string>New Property Name</string>
+            </property>
+            <property name="wordWrap">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="Property_Name"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="KrigingTypeSelector" name="Kriging_Type" native="true"/>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="GroupBox3">
+         <property name="title">
+          <string>Hard Data</string>
+         </property>
+         <layout class="QHBoxLayout">
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <property name="leftMargin">
+           <number>11</number>
+          </property>
+          <property name="topMargin">
+           <number>11</number>
+          </property>
+          <property name="rightMargin">
+           <number>11</number>
+          </property>
+          <property name="bottomMargin">
+           <number>11</number>
+          </property>
+          <item>
+           <widget class="PropertySelector" name="Hard_Data" native="true"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="GroupBox9">
+         <property name="title">
+          <string>Search Ellipsoid</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QGroupBox" name="groupBox5">
+            <property name="title">
+             <string>Conditioning data</string>
+            </property>
+            <layout class="QGridLayout">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <layout class="QHBoxLayout">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="TextLabel2_2_2_2_3">
+                 <property name="text">
+                  <string>Min</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="Min_Conditioning_Data">
+                 <property name="minimum">
+                  <number>0</number>
+                 </property>
+                 <property name="maximum">
+                  <number>200</number>
+                 </property>
+                 <property name="value">
+                  <number>0</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer>
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Expanding</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>31</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QLabel" name="TextLabel2_2_2_2_3_2">
+                 <property name="text">
+                  <string>Max</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="Max_Conditioning_Data">
+                 <property name="minimum">
+                  <number>0</number>
+                 </property>
+                 <property name="maximum">
+                  <number>200</number>
+                 </property>
+                 <property name="value">
+                  <number>12</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="EllipsoidInput" name="Search_Ellipsoid" native="true">
+            <property name="title" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="AdvancedNeighborhoodInput" name="AdvancedSearch" native="true"/>
+          </item>
+          <item>
+           <spacer name="spacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Expanding</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>17</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>31</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Variogram</string>
+      </attribute>
+      <layout class="QVBoxLayout">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="GroupBox11">
+         <property name="title">
+          <string>Variogram</string>
+         </property>
+         <layout class="QVBoxLayout">
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <property name="leftMargin">
+           <number>11</number>
+          </property>
+          <property name="topMargin">
+           <number>11</number>
+          </property>
+          <property name="rightMargin">
+           <number>11</number>
+          </property>
+          <property name="bottomMargin">
+           <number>11</number>
+          </property>
+          <item>
+           <widget class="VariogramInput" name="Variogram" native="true"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>161</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>LVA Pars</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_24">
+       <item>
+        <widget class="QGroupBox" name="GroupBox12">
+         <layout class="QVBoxLayout" name="verticalLayout_25">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="toolTip">
+               <string>LVA Distance (OSPD/MSPD) File Name</string>
+              </property>
+              <property name="text">
+               <string>MSPD/OSPD Distance File</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="sLvaDistanceFileName">
+              <property name="toolTip">
+               <string>LVA Distance (OSPD/MSPD) File Name</string>
+              </property>
+              <property name="text">
+               <string>Standard_test_data_circle/circle_4_2_MSPD.bin</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_22">
+            <item>
+             <widget class="QLabel" name="label_19">
+              <property name="toolTip">
+               <string>File name of the LVA field to be used</string>
+              </property>
+              <property name="text">
+               <string>LVA Field File Name</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="sLvaFieldFileName">
+              <property name="toolTip">
+               <string>File name of the LVA field to be used</string>
+              </property>
+              <property name="text">
+               <string>Standard_test_data_circle/LVA_field.out</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="toolTip">
+               <string>File name of the experimental variogram to be used</string>
+              </property>
+              <property name="text">
+               <string>Experimental Variogram File Name</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="sExpVariogramFileName">
+              <property name="toolTip">
+               <string>File name of the experimental variogram to be used</string>
+              </property>
+              <property name="text">
+               <string>/ExpVariograms/stdandard_test_data_20_test_random</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="toolTip">
+               <string>Will experimental variogram be used? 0- NO; 1- YES</string>
+              </property>
+              <property name="text">
+               <string>Will experimental variogram be used? (0- NO; 1- YES)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nEvpVariogram">
+              <property name="toolTip">
+               <string>Will experimental variogram be used? 0- NO; 1- YES</string>
+              </property>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="toolTip">
+               <string>Size of the LVA field, (e.g., 51 51 1 )</string>
+              </property>
+              <property name="text">
+               <string>LVA Field Size (e.g., 50 50 1)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nvLvaFieldSize">
+              <property name="toolTip">
+               <string>Size of the LVA field, (e.g., 51 51 1 )</string>
+              </property>
+              <property name="text">
+               <string>260 300 1</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <item>
+             <widget class="QLabel" name="label_14">
+              <property name="toolTip">
+               <string>Performed with LVA?, 0- NO; 1- YES</string>
+              </property>
+              <property name="text">
+               <string>Performed with LVA? (0- NO; 1- YES)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nWithLVA">
+              <property name="toolTip">
+               <string>Performed with LVA?, 0- NO; 1- YES</string>
+              </property>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_9">
+            <item>
+             <widget class="QLabel" name="label_15">
+              <property name="toolTip">
+               <string>Type of Search ellipsoid, 0- LVA; 1- Normal</string>
+              </property>
+              <property name="text">
+               <string>Type of Search ellipsoid (0- LVA; 1- DSE-DCF; 2- DSE; 3- DCF; others- CommonSE)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nEllipsoidType">
+              <property name="toolTip">
+               <string>Type of Search ellipsoid, 0- LVA; 1- DSE-DCF; 2- DSE; 3- DCF; others- CommonSE</string>
+              </property>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_10">
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="toolTip">
+               <string>valid value range of estimates (e.g., -9999999999.9 9999999999.9)</string>
+              </property>
+              <property name="text">
+               <string>Valid value range of estimates (e.g., [-9999999999.9 9999999999.9])</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="dvMinMaxValidEsts">
+              <property name="toolTip">
+               <string>valid value range of estimates (e.g., -9999999999.9 9999999999.9)</string>
+              </property>
+              <property name="text">
+               <string>-9999999999.9 9999999999.9</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_11">
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="toolTip">
+               <string>Will OK weights be used as initial values? 0- NO; 1- YES</string>
+              </property>
+              <property name="text">
+               <string>Will OK weights be used as initial values? (0- NO; 1- YES)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nvWeightIniValTypes">
+              <property name="toolTip">
+               <string>Will OK weights be used as initial values? 0- NO; 1- YES</string>
+              </property>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_12">
+            <item>
+             <widget class="QLabel" name="label_16">
+              <property name="toolTip">
+               <string>3 pars: the number of binary numbers; MinMaxWeightg; MaxWeight;  31 -0.05 1.0
+for the first par, if it &gt;0  GAAllele::NONE; &lt;0 GAAllele::INCLUSIVE; = 0 GAAllele::EXCLUSIVE</string>
+              </property>
+              <property name="text">
+               <string>Weight Value Range (e.g., -31 0.0 1.0)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="dvWeightValueRange">
+              <property name="toolTip">
+               <string>3 pars: the number of binary numbers; MinMaxWeightg; MaxWeight;  31 -0.05 1.0
+for the first par, if it &gt;0  GAAllele::NONE; &lt;0 GAAllele::INCLUSIVE; = 0 GAAllele::EXCLUSIVE</string>
+              </property>
+              <property name="text">
+               <string>-31 0.0 1.0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_13">
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="toolTip">
+               <string>servosystem correction for target Gaussian ccdf repro in SGSim : 2 pars for the mean and variance, respectively: 
+  if used, two pars should be within (0.0, 1.0], otherwise, no ccdf will not be corrected</string>
+              </property>
+              <property name="text">
+               <string>Servo-System Correction_W</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="dv_servosystem_correction_w">
+              <property name="toolTip">
+               <string>servosystem correction for target Gaussian ccdf repro in SGSim : 2 pars for the mean and variance, respectively: 
+  if used, two pars should be within (0.0, 1.0], otherwise, no ccdf will not be corrected</string>
+              </property>
+              <property name="text">
+               <string>-0.9 -0.9</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_14">
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="toolTip">
+               <string>Is Full random path used for SIM? 0- NO; 1- YES</string>
+              </property>
+              <property name="text">
+               <string>Is Full random path used for SIM? (0- NO; 1- YES)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="bFullSimRAP">
+              <property name="toolTip">
+               <string>Is Full random path used for SIM? 0- NO; 1- YES</string>
+              </property>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_15">
+            <item>
+             <widget class="QLabel" name="label_9">
+              <property name="toolTip">
+               <string>Estimation Method, -p -IDW; 1-Kriging-lva; 2-GK-lva; 3-common kriging</string>
+              </property>
+              <property name="text">
+               <string>Estimation Method (-p -IDW; 1-Kriging-lva; 2-GK-lva; 3-common kriging)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nEstimationMethod">
+              <property name="toolTip">
+               <string>Estimation Method, -p -IDW; 1-Kriging-lva; 2-GK-lva; 3-common kriging</string>
+              </property>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_16">
+            <item>
+             <widget class="QLabel" name="label_10">
+              <property name="toolTip">
+               <string>Optimization method type, 1-GALIB; 2-Simulated Annealing</string>
+              </property>
+              <property name="text">
+               <string>Opt Method (1-GALIB; 2-Simulated Annealing)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nOptMethods">
+              <property name="toolTip">
+               <string>Optimization method type, 1-GALIB; 2-Simulated Annealing</string>
+              </property>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_17">
+            <item>
+             <widget class="QLabel" name="label_11">
+              <property name="toolTip">
+               <string>GA type： 0-GASteadyStateGA 1-GAIncrementalGA 2-GADCrowdingGA 3-GADemeGA 4-GASimpleGA</string>
+              </property>
+              <property name="text">
+               <string>GA Type (0-SteadyStateGA 1-IncrementalGA 2-DCrowdingGA 3-DemeGA 4-SimpleGA)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nGeneticAlogrithmType">
+              <property name="toolTip">
+               <string>GA type： 0-GASteadyStateGA 1-GAIncrementalGA 2-GADCrowdingGA 3-GADemeGA 4-GASimpleGA</string>
+              </property>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_18">
+            <item>
+             <widget class="QLabel" name="label_12">
+              <property name="toolTip">
+               <string>Decoding/encoding way, 1- Real; 2-Binary</string>
+              </property>
+              <property name="text">
+               <string>De/Encoding Method (1- Real; 2-Binary)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nEncodingMethod">
+              <property name="toolTip">
+               <string>Decoding/encoding way, 1- Real; 2-Binary</string>
+              </property>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_19">
+            <item>
+             <widget class="QLabel" name="label_13">
+              <property name="toolTip">
+               <string>Terminator type： terminator type, 1 TerminateUponGeneration; 2 TerminateUponConvergence; 3 TerminateUponPopOrConvergence</string>
+              </property>
+              <property name="text">
+               <string>Terminator Type (1 ByGeneration; 2 ByConvergence; 3 ByPopOrConvergence)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nTerminator">
+              <property name="toolTip">
+               <string>Terminator type： terminator type, 1 TerminateUponGeneration; 2 TerminateUponConvergence; 3 TerminateUponPopOrConvergence</string>
+              </property>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_20">
+            <item>
+             <widget class="QLabel" name="label_17">
+              <property name="toolTip">
+               <string>Terminator type： terminator type, 1 TerminateUponGeneration; 2 TerminateUponConvergence; 3 TerminateUponPopOrConvergence</string>
+              </property>
+              <property name="text">
+               <string>Other GA paramter file</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="sGaParPathFile">
+              <property name="toolTip">
+               <string>Terminator type： terminator type, 1 TerminateUponGeneration; 2 TerminateUponConvergence; 3 TerminateUponPopOrConvergence</string>
+              </property>
+              <property name="text">
+               <string>/CalProcess/GA_Optimization_MinKV.par</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_21">
+            <item>
+             <widget class="QLabel" name="label_18">
+              <property name="toolTip">
+               <string>Terminator type： terminator type, 1 TerminateUponGeneration; 2 TerminateUponConvergence; 3 TerminateUponPopOrConvergence</string>
+              </property>
+              <property name="text">
+               <string>SA paramters</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="gsl_siman_params_t">
+              <property name="toolTip">
+               <string>	int n_tries;          /* how many points to try for each step */
+	int iters_fixed_T;    /* how many iterations at each temperature? */
+	double step_size;     /* max step size in the random walk */
+	/* the following parameters are for the Boltzmann distribution */
+	double k, t_initial, mu_t, t_min;</string>
+              </property>
+              <property name="text">
+               <string>200 1000 0.1 1.0 0.008 1.003 0.000002</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
+ <customwidgets>
+  <customwidget>
+   <class>VariogramInput</class>
+   <extends>QWidget</extends>
+   <header>GsTLAppli/extra/qtplugins/variogram_input.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KrigingTypeSelector</class>
+   <extends>QWidget</extends>
+   <header>GsTLAppli/extra/qtplugins/kriging_type_selector.h</header>
+  </customwidget>
+  <customwidget>
+   <class>EllipsoidInput</class>
+   <extends>QWidget</extends>
+   <header>GsTLAppli/extra/qtplugins/ellipsoid_input.h</header>
+  </customwidget>
+  <customwidget>
+   <class>GridSelector</class>
+   <extends>QTabWidget</extends>
+   <header>GsTLAppli/extra/qtplugins/selectors.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AdvancedNeighborhoodInput</class>
+   <extends>QWidget</extends>
+   <header>GsTLAppli/extra/qtplugins/neighborhood_filter_input.h</header>
+  </customwidget>
+  <customwidget>
+   <class>PropertySelector</class>
+   <extends>QWidget</extends>
+   <header>GsTLAppli/extra/qtplugins/selectors.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>Max_Conditioning_Data</tabstop>
+  <tabstop>Grid_Name</tabstop>
+  <tabstop>Property_Name</tabstop>
+  <tabstop>Min_Conditioning_Data</tabstop>
+ </tabstops>
+ <includes>
+  <include location="local">gridselector.h</include>
+  <include location="local">krigingtypeselector.h</include>
+  <include location="local">propertyselector.h</include>
+  <include location="local">ellipsoidinput.h</include>
+  <include location="local">gstl_table.h</include>
+  <include location="local">gstl_table.h</include>
+  <include location="local">variograminput.h</include>
+ </includes>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,960 @@
+
+
+ registering appli library 
+Registration done
+
+F- (directory)
+|- Project
+   F- (project)
+
+
+ registering actions library 
+Registration done 
+
+F- (directory)
+|- Actions
+   F- (AddPropertiesToGroup)
+   F- (AssignCategoricalDefinition)
+   F- (Build_conversion_table)
+   F- (Categorical_Conversion_from_sgems_group_in_place)
+   F- (Categorical_Conversion_to_sgems_in_place)
+   F- (ClearPropertyValueFromProperty)
+   F- (ClearPropertyValueIf)
+   F- (CopyProperty)
+   F- (CreateMgridFromCgrid)
+   F- (CreateTrend)
+   F- (DeleteObjectProperties)
+   F- (DeleteObjectRegions)
+   F- (DeleteObjects)
+   F- (Help)
+   F- (IndicatorCoding)
+   F- (LoadObjectFromFile)
+   F- (LoadProject)
+   F- (MergeObjectRegionsIntersection)
+   F- (MergeObjectRegionsUnion)
+   F- (NewCartesianGrid)
+   F- (NewCategoricalDefinition)
+   F- (NewPropertyGroup)
+   F- (NewRGrid)
+   F- (RemoveAllPropertiesFromGroup)
+   F- (RemoveGroup)
+   F- (RemovePropertiesToGroup)
+   F- (RunGeostatAlgorithm)
+   F- (RunScript)
+   F- (SaveGeostatGrid)
+   F- (SetActiveRegion)
+   F- (SetHarddata)
+   F- (SetRegionFromCategoricalPropertyIf)
+   F- (SetRegionFromComplement)
+   F- (SetRegionFromPropertyIf)
+   F- (SwapPropertyToDisk)
+   F- (SwapPropertyToRAM)
+   F- (complement)
+   F- (cos)
+   F- (exp)
+   F- (inverse)
+   F- (log)
+   F- (log10)
+   F- (logistic)
+   F- (logit)
+   F- (power10)
+   F- (sin)
+   F- (sqrt)
+   F- (square)
+   F- (standardize)
+   F- (unitScaling)
+|- Project
+   F- (project)
+|- PythonGroupScripts
+   F- (pythongroupscript)
+|- PythonScripts
+   F- (pythonscript)
+
+
+ registering filters library
+Registration done
+
+F- (directory)
+|- Actions
+   F- (AddPropertiesToGroup)
+   F- (AssignCategoricalDefinition)
+   F- (Build_conversion_table)
+   F- (Categorical_Conversion_from_sgems_group_in_place)
+   F- (Categorical_Conversion_to_sgems_in_place)
+   F- (ClearPropertyValueFromProperty)
+   F- (ClearPropertyValueIf)
+   F- (CopyProperty)
+   F- (CreateMgridFromCgrid)
+   F- (CreateTrend)
+   F- (DeleteObjectProperties)
+   F- (DeleteObjectRegions)
+   F- (DeleteObjects)
+   F- (Help)
+   F- (IndicatorCoding)
+   F- (LoadObjectFromFile)
+   F- (LoadProject)
+   F- (MergeObjectRegionsIntersection)
+   F- (MergeObjectRegionsUnion)
+   F- (NewCartesianGrid)
+   F- (NewCategoricalDefinition)
+   F- (NewPropertyGroup)
+   F- (NewRGrid)
+   F- (RemoveAllPropertiesFromGroup)
+   F- (RemoveGroup)
+   F- (RemovePropertiesToGroup)
+   F- (RunGeostatAlgorithm)
+   F- (RunScript)
+   F- (SaveGeostatGrid)
+   F- (SetActiveRegion)
+   F- (SetHarddata)
+   F- (SetRegionFromCategoricalPropertyIf)
+   F- (SetRegionFromComplement)
+   F- (SetRegionFromPropertyIf)
+   F- (SwapPropertyToDisk)
+   F- (SwapPropertyToRAM)
+   F- (complement)
+   F- (cos)
+   F- (exp)
+   F- (inverse)
+   F- (log)
+   F- (log10)
+   F- (logistic)
+   F- (logit)
+   F- (power10)
+   F- (sin)
+   F- (sqrt)
+   F- (square)
+   F- (standardize)
+   F- (unitScaling)
+|- InputFilters
+   F- (directory)
+   |- Csv
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- Gslib
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- TopLevel
+      F- (csv)
+      F- (gslib)
+      F- (sgems)
+      F- (sgems_beta)
+|- OutputFilters
+   F- (csv)
+   F- (gslib)
+   F- (sgems)
+   F- (sgems_beta)
+|- Project
+   F- (project)
+|- PythonGroupScripts
+   F- (pythongroupscript)
+|- PythonScripts
+   F- (pythonscript)
+
+
+ registering geostat library
+Registration done
+
+F- (directory)
+|- Actions
+   F- (AddPropertiesToGroup)
+   F- (AssignCategoricalDefinition)
+   F- (Build_conversion_table)
+   F- (Categorical_Conversion_from_sgems_group_in_place)
+   F- (Categorical_Conversion_to_sgems_in_place)
+   F- (ClearPropertyValueFromProperty)
+   F- (ClearPropertyValueIf)
+   F- (CopyProperty)
+   F- (CreateMgridFromCgrid)
+   F- (CreateTrend)
+   F- (DeleteObjectProperties)
+   F- (DeleteObjectRegions)
+   F- (DeleteObjects)
+   F- (Help)
+   F- (IndicatorCoding)
+   F- (LoadObjectFromFile)
+   F- (LoadProject)
+   F- (MergeObjectRegionsIntersection)
+   F- (MergeObjectRegionsUnion)
+   F- (NewCartesianGrid)
+   F- (NewCategoricalDefinition)
+   F- (NewPropertyGroup)
+   F- (NewRGrid)
+   F- (RemoveAllPropertiesFromGroup)
+   F- (RemoveGroup)
+   F- (RemovePropertiesToGroup)
+   F- (RunGeostatAlgorithm)
+   F- (RunScript)
+   F- (SaveGeostatGrid)
+   F- (SetActiveRegion)
+   F- (SetHarddata)
+   F- (SetRegionFromCategoricalPropertyIf)
+   F- (SetRegionFromComplement)
+   F- (SetRegionFromPropertyIf)
+   F- (SwapPropertyToDisk)
+   F- (SwapPropertyToRAM)
+   F- (complement)
+   F- (cos)
+   F- (exp)
+   F- (inverse)
+   F- (log)
+   F- (log10)
+   F- (logistic)
+   F- (logit)
+   F- (power10)
+   F- (sin)
+   F- (sqrt)
+   F- (square)
+   F- (standardize)
+   F- (unitScaling)
+|- GeostatAlgo
+   F- (DifferenceWithBase)
+   F- (ImageProcess)
+   F- (LU_sim)
+   F- (NuTauModel)
+   F- (PostKriging)
+   F- (Postsim)
+   F- (Postsim_categorical)
+   F- (cokriging)
+   F- (cosgsim)
+   F- (cosisim)
+   F- (dssim)
+   F- (filtersim_cate)
+   F- (filtersim_cont)
+   F- (indicator_kriging)
+   F- (kriging)
+   F- (kriging_mean)
+   F- (moving_window)
+   F- (sgsim)
+   F- (sisim)
+   F- (snesim_std)
+   F- (trans)
+   F- (transcat)
+|- GeostatParamUtils
+   F- (directory)
+   |- XML
+      F- (Parameters_handler)
+|- InputFilters
+   F- (directory)
+   |- Csv
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- Gslib
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- TopLevel
+      F- (csv)
+      F- (gslib)
+      F- (sgems)
+      F- (sgems_beta)
+|- OutputFilters
+   F- (csv)
+   F- (gslib)
+   F- (sgems)
+   F- (sgems_beta)
+|- Project
+   F- (project)
+|- PythonGroupScripts
+   F- (pythongroupscript)
+|- PythonScripts
+   F- (pythonscript)
+registering grid library
+Creating Categorical definition manager
+Registration done
+F- (directory)
+|- Actions
+   F- (AddPropertiesToGroup)
+   F- (AssignCategoricalDefinition)
+   F- (Build_conversion_table)
+   F- (Categorical_Conversion_from_sgems_group_in_place)
+   F- (Categorical_Conversion_to_sgems_in_place)
+   F- (ClearPropertyValueFromProperty)
+   F- (ClearPropertyValueIf)
+   F- (CopyProperty)
+   F- (CreateMgridFromCgrid)
+   F- (CreateTrend)
+   F- (DeleteObjectProperties)
+   F- (DeleteObjectRegions)
+   F- (DeleteObjects)
+   F- (Help)
+   F- (IndicatorCoding)
+   F- (LoadObjectFromFile)
+   F- (LoadProject)
+   F- (MergeObjectRegionsIntersection)
+   F- (MergeObjectRegionsUnion)
+   F- (NewCartesianGrid)
+   F- (NewCategoricalDefinition)
+   F- (NewPropertyGroup)
+   F- (NewRGrid)
+   F- (RemoveAllPropertiesFromGroup)
+   F- (RemoveGroup)
+   F- (RemovePropertiesToGroup)
+   F- (RunGeostatAlgorithm)
+   F- (RunScript)
+   F- (SaveGeostatGrid)
+   F- (SetActiveRegion)
+   F- (SetHarddata)
+   F- (SetRegionFromCategoricalPropertyIf)
+   F- (SetRegionFromComplement)
+   F- (SetRegionFromPropertyIf)
+   F- (SwapPropertyToDisk)
+   F- (SwapPropertyToRAM)
+   F- (complement)
+   F- (cos)
+   F- (exp)
+   F- (inverse)
+   F- (log)
+   F- (log10)
+   F- (logistic)
+   F- (logit)
+   F- (power10)
+   F- (sin)
+   F- (sqrt)
+   F- (square)
+   F- (standardize)
+   F- (unitScaling)
+|- CategoricalDefinitions
+   F- (categoricaldefinition)
+   |- Default
+|- GeostatAlgo
+   F- (DifferenceWithBase)
+   F- (ImageProcess)
+   F- (LU_sim)
+   F- (NuTauModel)
+   F- (PostKriging)
+   F- (Postsim)
+   F- (Postsim_categorical)
+   F- (cokriging)
+   F- (cosgsim)
+   F- (cosisim)
+   F- (dssim)
+   F- (filtersim_cate)
+   F- (filtersim_cont)
+   F- (indicator_kriging)
+   F- (kriging)
+   F- (kriging_mean)
+   F- (moving_window)
+   F- (sgsim)
+   F- (sisim)
+   F- (snesim_std)
+   F- (trans)
+   F- (transcat)
+|- GeostatParamUtils
+   F- (directory)
+   |- XML
+      F- (Parameters_handler)
+|- GridObject
+   F- (directory)
+   |- Model
+      F- (cgrid)
+      F- (point_set)
+      F- (reduced_grid)
+      F- (rgrid)
+   |- PropertyCopier
+      F- (Cgrid;;Cgrid)
+      F- (Cgrid;;Point_set)
+      F- (Masked_grid;;Masked_grid)
+      F- (Masked_grid;;Point_set)
+      F- (Point_set;;Cgrid)
+      F- (Point_set;;Masked_grid)
+      F- (Point_set;;Point_set)
+|- InputFilters
+   F- (directory)
+   |- Csv
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- Gslib
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- TopLevel
+      F- (csv)
+      F- (gslib)
+      F- (sgems)
+      F- (sgems_beta)
+|- OutputFilters
+   F- (csv)
+   F- (gslib)
+   F- (sgems)
+   F- (sgems_beta)
+|- Project
+   F- (project)
+|- PythonGroupScripts
+   F- (pythongroupscript)
+|- PythonScripts
+   F- (pythonscript)
+
+
+ registering gui library
+Creating Project_view manager
+Creating QWidget_value_accessors manager
+Creating Colormaps manager
+Creating Open Inventor descriptions manager
+Creating Qt summary descriptions manager
+Registration done
+
+F- (directory)
+|- Actions
+   F- (AddPropertiesToGroup)
+   F- (AssignCategoricalDefinition)
+   F- (Build_conversion_table)
+   F- (Categorical_Conversion_from_sgems_group_in_place)
+   F- (Categorical_Conversion_to_sgems_in_place)
+   F- (ClearPropertyValueFromProperty)
+   F- (ClearPropertyValueIf)
+   F- (CopyProperty)
+   F- (CreateMgridFromCgrid)
+   F- (CreateTrend)
+   F- (DeleteObjectProperties)
+   F- (DeleteObjectRegions)
+   F- (DeleteObjects)
+   F- (DisplayObject)
+   F- (Help)
+   F- (HideObject)
+   F- (IndicatorCoding)
+   F- (LoadCameraSettings)
+   F- (LoadColorBar)
+   F- (LoadObjectFromFile)
+   F- (LoadProject)
+   F- (MergeObjectRegionsIntersection)
+   F- (MergeObjectRegionsUnion)
+   F- (NewCartesianGrid)
+   F- (NewCategoricalDefinition)
+   F- (NewPropertyGroup)
+   F- (NewRGrid)
+   F- (RemoveAllPropertiesFromGroup)
+   F- (RemoveGroup)
+   F- (RemovePropertiesToGroup)
+   F- (ResizeCameraWindow)
+   F- (RotateCamera)
+   F- (RunGeostatAlgorithm)
+   F- (RunScript)
+   F- (SaveCameraSettings)
+   F- (SaveGeostatGrid)
+   F- (SaveHistogram)
+   F- (SaveQQplot)
+   F- (SaveScatterplot)
+   F- (SetActiveRegion)
+   F- (SetHarddata)
+   F- (SetRegionFromCategoricalPropertyIf)
+   F- (SetRegionFromComplement)
+   F- (SetRegionFromPropertyIf)
+   F- (ShowHistogram)
+   F- (SwapPropertyToDisk)
+   F- (SwapPropertyToRAM)
+   F- (TakeSnapshot)
+   F- (complement)
+   F- (cos)
+   F- (exp)
+   F- (inverse)
+   F- (log)
+   F- (log10)
+   F- (logistic)
+   F- (logit)
+   F- (power10)
+   F- (sin)
+   F- (sqrt)
+   F- (square)
+   F- (standardize)
+   F- (unitScaling)
+|- CategoricalDefinitions
+   F- (categoricaldefinition)
+   |- Default
+|- Colormaps
+   F- (colormap)
+|- GeostatAlgo
+   F- (DifferenceWithBase)
+   F- (ImageProcess)
+   F- (LU_sim)
+   F- (NuTauModel)
+   F- (PostKriging)
+   F- (Postsim)
+   F- (Postsim_categorical)
+   F- (cokriging)
+   F- (cosgsim)
+   F- (cosisim)
+   F- (dssim)
+   F- (filtersim_cate)
+   F- (filtersim_cont)
+   F- (indicator_kriging)
+   F- (kriging)
+   F- (kriging_mean)
+   F- (moving_window)
+   F- (sgsim)
+   F- (sisim)
+   F- (snesim_std)
+   F- (trans)
+   F- (transcat)
+|- GeostatParamUtils
+   F- (directory)
+   |- XML
+      F- (Parameters_handler)
+      F- (QCheckBox)
+      F- (QComboBox)
+      F- (QLineEdit)
+      F- (QRadioButton)
+      F- (QSpinBox)
+      F- (QTableWidget)
+      F- (Value_collector)
+|- GridObject
+   F- (directory)
+   |- Model
+      F- (cgrid)
+      F- (point_set)
+      F- (reduced_grid)
+      F- (rgrid)
+   |- OinvDescription
+      F- (Cgrid)
+      F- (Masked_grid)
+      F- (Point_set)
+   |- PropertyCopier
+      F- (Cgrid;;Cgrid)
+      F- (Cgrid;;Point_set)
+      F- (Masked_grid;;Masked_grid)
+      F- (Masked_grid;;Point_set)
+      F- (Point_set;;Cgrid)
+      F- (Point_set;;Masked_grid)
+      F- (Point_set;;Point_set)
+   |- QtSummaryDescription
+      F- (Cgrid)
+      F- (Masked_grid)
+      F- (Point_set)
+|- InputFilters
+   F- (directory)
+   |- Csv
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- Gslib
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- TopLevel
+      F- (csv)
+      F- (gslib)
+      F- (sgems)
+      F- (sgems_beta)
+|- OutputFilters
+   F- (csv)
+   F- (gslib)
+   F- (sgems)
+   F- (sgems_beta)
+|- Project
+   F- (project)
+|- ProjectView
+   F- (oinv_view)
+|- PythonGroupScripts
+   F- (pythongroupscript)
+|- PythonScripts
+   F- (pythonscript)
+
+
+ registering extragui library
+Getting QT_wrappers manager
+Registration done
+
+F- (directory)
+|- Actions
+   F- (AddPropertiesToGroup)
+   F- (AssignCategoricalDefinition)
+   F- (Build_conversion_table)
+   F- (Categorical_Conversion_from_sgems_group_in_place)
+   F- (Categorical_Conversion_to_sgems_in_place)
+   F- (ClearPropertyValueFromProperty)
+   F- (ClearPropertyValueIf)
+   F- (CopyProperty)
+   F- (CreateMgridFromCgrid)
+   F- (CreateTrend)
+   F- (DeleteObjectProperties)
+   F- (DeleteObjectRegions)
+   F- (DeleteObjects)
+   F- (DisplayObject)
+   F- (Help)
+   F- (HideObject)
+   F- (IndicatorCoding)
+   F- (LoadCameraSettings)
+   F- (LoadColorBar)
+   F- (LoadObjectFromFile)
+   F- (LoadProject)
+   F- (MergeObjectRegionsIntersection)
+   F- (MergeObjectRegionsUnion)
+   F- (NewCartesianGrid)
+   F- (NewCategoricalDefinition)
+   F- (NewPropertyGroup)
+   F- (NewRGrid)
+   F- (RemoveAllPropertiesFromGroup)
+   F- (RemoveGroup)
+   F- (RemovePropertiesToGroup)
+   F- (ResizeCameraWindow)
+   F- (RotateCamera)
+   F- (RunGeostatAlgorithm)
+   F- (RunScript)
+   F- (SaveCameraSettings)
+   F- (SaveGeostatGrid)
+   F- (SaveHistogram)
+   F- (SaveQQplot)
+   F- (SaveScatterplot)
+   F- (SetActiveRegion)
+   F- (SetHarddata)
+   F- (SetRegionFromCategoricalPropertyIf)
+   F- (SetRegionFromComplement)
+   F- (SetRegionFromPropertyIf)
+   F- (ShowHistogram)
+   F- (SwapPropertyToDisk)
+   F- (SwapPropertyToRAM)
+   F- (TakeSnapshot)
+   F- (complement)
+   F- (cos)
+   F- (exp)
+   F- (inverse)
+   F- (log)
+   F- (log10)
+   F- (logistic)
+   F- (logit)
+   F- (power10)
+   F- (sin)
+   F- (sqrt)
+   F- (square)
+   F- (standardize)
+   F- (unitScaling)
+|- CategoricalDefinitions
+   F- (categoricaldefinition)
+   |- Default
+|- Colormaps
+   F- (colormap)
+|- GeostatAlgo
+   F- (DifferenceWithBase)
+   F- (ImageProcess)
+   F- (LU_sim)
+   F- (NuTauModel)
+   F- (PostKriging)
+   F- (Postsim)
+   F- (Postsim_categorical)
+   F- (cokriging)
+   F- (cosgsim)
+   F- (cosisim)
+   F- (dssim)
+   F- (filtersim_cate)
+   F- (filtersim_cont)
+   F- (indicator_kriging)
+   F- (kriging)
+   F- (kriging_mean)
+   F- (moving_window)
+   F- (sgsim)
+   F- (sisim)
+   F- (snesim_std)
+   F- (trans)
+   F- (transcat)
+|- GeostatParamUtils
+   F- (directory)
+   |- XML
+      F- (AdvancedNeighborhoodInput)
+      F- (EllipsoidInput)
+      F- (FileChooser)
+      F- (GridSelector)
+      F- (GridSelectorBasic)
+      F- (GsTLTable)
+      F- (KrigingTypeSelector)
+      F- (LowerTailCdfInput)
+      F- (MultiPropertySelector)
+      F- (NonParamCdfInput)
+      F- (OctantSearchInput)
+      F- (OrderedCategoricalPropertySelector)
+      F- (OrderedPropertySelector)
+      F- (Parameters_handler)
+      F- (PropertySelector)
+      F- (PropertySelectorNoRegion)
+      F- (QCheckBox)
+      F- (QComboBox)
+      F- (QLineEdit)
+      F- (QRadioButton)
+      F- (QSpinBox)
+      F- (QTableWidget)
+      F- (SinglePropertySelector)
+      F- (TrendComponents)
+      F- (UpperTailCdfInput)
+      F- (Value_collector)
+      F- (VariogramInput)
+|- GridObject
+   F- (directory)
+   |- Model
+      F- (cgrid)
+      F- (point_set)
+      F- (reduced_grid)
+      F- (rgrid)
+   |- OinvDescription
+      F- (Cgrid)
+      F- (Masked_grid)
+      F- (Point_set)
+   |- PropertyCopier
+      F- (Cgrid;;Cgrid)
+      F- (Cgrid;;Point_set)
+      F- (Masked_grid;;Masked_grid)
+      F- (Masked_grid;;Point_set)
+      F- (Point_set;;Cgrid)
+      F- (Point_set;;Masked_grid)
+      F- (Point_set;;Point_set)
+   |- QtSummaryDescription
+      F- (Cgrid)
+      F- (Masked_grid)
+      F- (Point_set)
+|- InputFilters
+   F- (directory)
+   |- Csv
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- Gslib
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- TopLevel
+      F- (csv)
+      F- (gslib)
+      F- (sgems)
+      F- (sgems_beta)
+|- OutputFilters
+   F- (csv)
+   F- (gslib)
+   F- (sgems)
+   F- (sgems_beta)
+|- Project
+   F- (project)
+|- ProjectView
+   F- (oinv_view)
+|- PythonGroupScripts
+   F- (pythongroupscript)
+|- PythonScripts
+   F- (pythonscript)
+Trying to load plug-in: H:/svn_study/Paper_Code/GK-Data/Compiled_exe_programs/LibX64/plugins/Geostat/KrigLvaByGA.dll...
+... OK
+
+Trying to load plug-in: H:/svn_study/Paper_Code/GK-Data/Compiled_exe_programs/LibX64/plugins/Geostat/LvaFieldGeneration.dll...
+
+
+ registering algo CLvaFieldGeneration
+... OK
+
+F- (directory)
+|- Actions
+   F- (AddPropertiesToGroup)
+   F- (AssignCategoricalDefinition)
+   F- (Build_conversion_table)
+   F- (Categorical_Conversion_from_sgems_group_in_place)
+   F- (Categorical_Conversion_to_sgems_in_place)
+   F- (ClearPropertyValueFromProperty)
+   F- (ClearPropertyValueIf)
+   F- (CopyProperty)
+   F- (CreateMgridFromCgrid)
+   F- (CreateTrend)
+   F- (DeleteObjectProperties)
+   F- (DeleteObjectRegions)
+   F- (DeleteObjects)
+   F- (DisplayObject)
+   F- (Help)
+   F- (HideObject)
+   F- (IndicatorCoding)
+   F- (LoadCameraSettings)
+   F- (LoadColorBar)
+   F- (LoadObjectFromFile)
+   F- (LoadProject)
+   F- (MergeObjectRegionsIntersection)
+   F- (MergeObjectRegionsUnion)
+   F- (NewCartesianGrid)
+   F- (NewCategoricalDefinition)
+   F- (NewPropertyGroup)
+   F- (NewRGrid)
+   F- (RemoveAllPropertiesFromGroup)
+   F- (RemoveGroup)
+   F- (RemovePropertiesToGroup)
+   F- (ResizeCameraWindow)
+   F- (RotateCamera)
+   F- (RunGeostatAlgorithm)
+   F- (RunScript)
+   F- (SaveCameraSettings)
+   F- (SaveGeostatGrid)
+   F- (SaveHistogram)
+   F- (SaveQQplot)
+   F- (SaveScatterplot)
+   F- (SetActiveRegion)
+   F- (SetHarddata)
+   F- (SetRegionFromCategoricalPropertyIf)
+   F- (SetRegionFromComplement)
+   F- (SetRegionFromPropertyIf)
+   F- (ShowHistogram)
+   F- (SwapPropertyToDisk)
+   F- (SwapPropertyToRAM)
+   F- (TakeSnapshot)
+   F- (complement)
+   F- (cos)
+   F- (exp)
+   F- (inverse)
+   F- (log)
+   F- (log10)
+   F- (logistic)
+   F- (logit)
+   F- (power10)
+   F- (sin)
+   F- (sqrt)
+   F- (square)
+   F- (standardize)
+   F- (unitScaling)
+|- CategoricalDefinitions
+   F- (categoricaldefinition)
+   |- Default
+|- Colormaps
+   F- (colormap)
+   |- cyan_red
+   |- gray
+   |- hot
+   |- rainbow
+   |- rainbow2
+   |- rainbow3
+   |- red_blue
+   |- whi_blue
+|- GeostatAlgo
+   F- (DifferenceWithBase)
+   F- (ImageProcess)
+   F- (KrigLvaByGA)
+   F- (LU_sim)
+   F- (LvaFieldGeneration)
+   F- (NuTauModel)
+   F- (PostKriging)
+   F- (Postsim)
+   F- (Postsim_categorical)
+   F- (SgsimLVA)
+   F- (cokriging)
+   F- (cosgsim)
+   F- (cosisim)
+   F- (dssim)
+   F- (filtersim_cate)
+   F- (filtersim_cont)
+   F- (indicator_kriging)
+   F- (kriging)
+   F- (kriging_mean)
+   F- (moving_window)
+   F- (sgsim)
+   F- (sisim)
+   F- (snesim_std)
+   F- (trans)
+   F- (transcat)
+|- GeostatParamUtils
+   F- (directory)
+   |- XML
+      F- (AdvancedNeighborhoodInput)
+      F- (EllipsoidInput)
+      F- (FileChooser)
+      F- (GridSelector)
+      F- (GridSelectorBasic)
+      F- (GsTLTable)
+      F- (KrigingTypeSelector)
+      F- (LowerTailCdfInput)
+      F- (MultiPropertySelector)
+      F- (NonParamCdfInput)
+      F- (OctantSearchInput)
+      F- (OrderedCategoricalPropertySelector)
+      F- (OrderedPropertySelector)
+      F- (Parameters_handler)
+      F- (PropertySelector)
+      F- (PropertySelectorNoRegion)
+      F- (QCheckBox)
+      F- (QComboBox)
+      F- (QLineEdit)
+      F- (QRadioButton)
+      F- (QSpinBox)
+      F- (QTableWidget)
+      F- (SinglePropertySelector)
+      F- (TrendComponents)
+      F- (UpperTailCdfInput)
+      F- (Value_collector)
+      F- (VariogramInput)
+|- GridObject
+   F- (directory)
+   |- Model
+      F- (cgrid)
+      F- (point_set)
+      F- (reduced_grid)
+      F- (rgrid)
+   |- OinvDescription
+      F- (Cgrid)
+      F- (Masked_grid)
+      F- (Point_set)
+   |- PropertyCopier
+      F- (Cgrid;;Cgrid)
+      F- (Cgrid;;Point_set)
+      F- (Masked_grid;;Masked_grid)
+      F- (Masked_grid;;Point_set)
+      F- (Point_set;;Cgrid)
+      F- (Point_set;;Masked_grid)
+      F- (Point_set;;Point_set)
+   |- QtSummaryDescription
+      F- (Cgrid)
+      F- (Masked_grid)
+      F- (Point_set)
+|- InputFilters
+   F- (directory)
+   |- Csv
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- Gslib
+      F- (cartesian grid)
+      F- (masked grid)
+      F- (point set)
+   |- TopLevel
+      F- (csv)
+      F- (gslib)
+      F- (sgems)
+      F- (sgems_beta)
+|- OutputFilters
+   F- (csv)
+   F- (gslib)
+   F- (sgems)
+   F- (sgems_beta)
+|- Project
+   F- (project)
+|- ProjectView
+   F- (oinv_view)
+|- PythonGroupScripts
+   F- (pythongroupscript)
+|- PythonScripts
+   F- (pythonscript)
+Adding algorithm DifferenceWithBase to GUI selector
+Can't find file H:/svn_study/Paper_Code/GK-Data/Compiled_exe_programs/LibX64/plugins/Geostat/DifferenceWithBase.ui
+Aborting registration of algorithm DifferenceWithBase
+
+Adding algorithm ImageProcess to GUI selector
+Adding algorithm KrigLvaByGA to GUI selector
+Adding algorithm LU_sim to GUI selector
+Adding algorithm LvaFieldGeneration to GUI selector
+Adding algorithm NuTauModel to GUI selector
+Adding algorithm PostKriging to GUI selector
+Adding algorithm Postsim to GUI selector
+Adding algorithm Postsim_categorical to GUI selector
+Can't find file H:/svn_study/Paper_Code/GK-Data/Compiled_exe_programs/LibX64/plugins/Geostat/Postsim_categorical.ui
+Aborting registration of algorithm Postsim_categorical
+
+Adding algorithm SgsimLVA to GUI selector
+Adding algorithm cokriging to GUI selector
+Adding algorithm cosgsim to GUI selector
+Adding algorithm cosisim to GUI selector
+Adding algorithm dssim to GUI selector
+Adding algorithm filtersim_cate to GUI selector
+Adding algorithm filtersim_cont to GUI selector
+Adding algorithm indicator_kriging to GUI selector
+Adding algorithm kriging to GUI selector
+Adding algorithm kriging_mean to GUI selector
+Can't find file H:/svn_study/Paper_Code/GK-Data/Compiled_exe_programs/LibX64/plugins/Geostat/kriging_mean.ui
+Aborting registration of algorithm kriging_mean
+
+Adding algorithm moving_window to GUI selector
+Adding algorithm sgsim to GUI selector
+Adding algorithm sisim to GUI selector
+Adding algorithm snesim_std to GUI selector
+Adding algorithm trans to GUI selector
+Adding algorithm transcat to GUI selector

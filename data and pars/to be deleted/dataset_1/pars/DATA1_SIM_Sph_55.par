@@ -1,0 +1,22 @@
+<parameters>  <algorithm name="SgsimLVA" /> 
+  <Variogram  nugget="0" structures_count="1"  >
+    <structure_1  contribution="1"  type="Spherical"   >
+      <ranges max="55"  medium="55"  min="1"   />
+      <angles x="0"  y="0"  z="0"   />
+    </structure_1>
+</Variogram>
+  <Grid_Name value="LAV_TEST" region=""  /> 
+  <Property_Name  value="GSK_SIM_Sph_55_" /> 
+  <Nb_Realizations  value="100" /> 
+  <Seed  value="14071789" /> 
+  <Kriging_Type  value="Simple Kriging (SK)"  /> 
+  <Trend  value="0 0 0 0 0 0 0 0 0 " />
+  <Local_Mean_Property  value="first_ests"  /> 
+  <Assign_Hard_Data  value="1"  /> 
+  <Hard_Data  grid="LAV_TEST" region="" property="first_ests"  /> 
+  <Max_Conditioning_Data  value="20" />
+  <Search_Ellipsoid  value="100 100 1
+0 0 0" />
+  <AdvancedSearch  use_advanced_search="0"></AdvancedSearch>
+  <Use_Target_Histogram  value="0"  /> 
+</parameters> 

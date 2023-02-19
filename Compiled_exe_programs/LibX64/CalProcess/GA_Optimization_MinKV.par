@@ -1,0 +1,14 @@
+seed	1
+minimaxi	-1
+number_of_generations	400
+crossover_probability	0.9
+mutation_probability	0.01
+population_size	20
+generations_to_convergence	50
+convergence_percentage	1.0000001
+number_of_best	1
+score_frequency	1
+flush_frequency	10
+record_diversity	0
+score_filename	CalProcess\KrigLavByGA_GA_bog.txt
+select_scores	255

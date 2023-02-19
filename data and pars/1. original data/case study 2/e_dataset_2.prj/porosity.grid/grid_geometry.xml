@@ -1,0 +1,9 @@
+<!DOCTYPE gridGeometry>
+<Grid type="Cgrid" name="porosity">
+ <Geometry dx="1" dy="1" dz="1" ox="1" oy="1" nx="150" oz="0" ny="200" nz="1"/>
+ <Properties>
+  <GsTLGridProperty filepath="properties/property__V.sgems" type="Continuous" name="V"/>
+ </Properties>
+ <Regions/>
+ <PropertyGroups/>
+</Grid>

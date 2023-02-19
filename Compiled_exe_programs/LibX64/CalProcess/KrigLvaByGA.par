@@ -1,0 +1,70 @@
+<parameters>
+  <algorithm name="KrigLvaByGA" />
+
+  <!-- LVA Distance (OSPD/MSPD) File Name dist_standard_full dist_standard_mds_L10 
+  dist_standard_full_2SM.bin  dist_standard_mds_L10_2SM.bin-->
+
+  <sLvaDistanceFileName value="L2_S_1000_random_data/ospd_dist_cpp_2CM.bin" />  
+  
+  <!-- File name of the experimental variogram to be used L2_10-->
+  <sExpVariogramFileName value="\\ExpVariograms\\stdandard_test_data_20_test_random" />
+  
+  <!-- Will experimental variogram be used? 0- NO; 1- YES-->
+  <nEvpVariogram value= "0" />
+
+  <!-- Size of the LVA field 51 51 1 ; 260 300 1 130 150 1-->
+  <nvLvaFieldSize value = "260 300 1" />
+
+  <!-- Performed with LVA?, 0- NO; 1- YES -->
+  <nWithLVA value="1" />
+
+  <!-- Type of Search ellipsoid, 0- LVA; 1- Normal;  -->
+  <nEllipsoidType value="0" />
+
+  <!-- valid value range of estimates [-9999999999.9 9999999999.9]  -2.48872 2.48872-->
+  <dvMinMaxValidEsts value= "-9999999999.9 9999999999.9" />
+
+  <!-- Will OK weights be used as initial values? 0- NO; 1- YES-->
+  <nvWeightIniValTypes value= "0" />
+  
+  <!-- 3 pars: the number of binary numbers; MinMaxWeightg; MaxWeight;  31 -0.05 1.0-->
+  <!-- for the first par, if it >0  GAAllele::NONE; <0 GAAllele::INCLUSIVE; = 0 GAAllele::EXCLUSIVE  -->
+  <dvWeightValueRange value= "-31 0.0 1.0" />  
+  
+  <!-- servosystem correction for target Gaussian ccdf repro in SGSim : 2 pars for the mean and variance, respectively: 
+  if used, two pars should be within (0.0, 1.0], otherwise, no ccdf will not be corrected -->
+  <dv_servosystem_correction_w value= "-0.9 -0.9" />
+
+  <!-- Is Full random path used for SIM? 0- NO; 1- YES  -->
+  <bFullSimRAP value="0" />
+
+  <!-- Estimation Method, -p -IDW; 1-Kriging-lva; 2-GK-lva; 3-common kriging -->
+  <nEstimationMethod value="2" />
+
+  <!-- Optimization method type, 1-GALIB; 2-Simulated Annealing-->
+  <nOptMethods value="1" />
+
+  <!-- GA type： 0-GASteadyStateGA 1-GAIncrementalGA 2-GADCrowdingGA 3-GADemeGA 4-GASimpleGA-->
+  <nGeneticAlogrithmType  value="2" />
+  
+    <!-- Decoding/encoding way, 1- Real; 2-Binary --> 
+  <nEncodingMethod value= "1" />
+  
+  <!-- Terminator type： terminator type, 1 TerminateUponGeneration; 2 TerminateUponConvergence; 3 TerminateUponPopOrConvergence-->
+  <nTerminator  value="3" />  
+  
+    <!-- The GA parameters' filename -->
+  <sGaParPathFile value="Standard_test_data_circle/circle_4_2_MSPD.bin" />  
+  
+	<!-- 
+	typedef struct {
+	int n_tries;          /* how many points to try for each step */
+	int iters_fixed_T;    /* how many iterations at each temperature? */
+	double step_size;     /* max step size in the random walk */
+	/* the following parameters are for the Boltzmann distribution */
+	double k, t_initial, mu_t, t_min;
+	} gsl_siman_params_t;
+	-->
+  <gsl_siman_params_t value= "200 1000 0.1 1.0 0.008 1.003 0.000002" />  
+
+</parameters>
