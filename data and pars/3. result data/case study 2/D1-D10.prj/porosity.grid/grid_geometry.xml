@@ -89,14 +89,24 @@
   <GsTLGridProperty filepath="properties/property__abs_error_L2_TOK_Exp_ests_3-M.sgems" type="Continuous" name="abs_error_L2_TOK_Exp_ests_3-M"/>
   <GsTLGridProperty filepath="properties/property__l2_S_D100.sgems" type="Continuous" name="l2_S_D100"/>
   <GsTLGridProperty filepath="properties/property__l2_S_D1000.sgems" type="Continuous" name="l2_S_D1000"/>
+  <GsTLGridProperty filepath="properties/property__l2_S_D1000_krig_var.sgems" type="Continuous" name="l2_S_D1000_krig_var"/>
+  <GsTLGridProperty filepath="properties/property__l2_S_D100_krig_var.sgems" type="Continuous" name="l2_S_D100_krig_var"/>
   <GsTLGridProperty filepath="properties/property__l2_S_D200.sgems" type="Continuous" name="l2_S_D200"/>
+  <GsTLGridProperty filepath="properties/property__l2_S_D200_krig_var.sgems" type="Continuous" name="l2_S_D200_krig_var"/>
   <GsTLGridProperty filepath="properties/property__l2_S_D300.sgems" type="Continuous" name="l2_S_D300"/>
+  <GsTLGridProperty filepath="properties/property__l2_S_D300_krig_var.sgems" type="Continuous" name="l2_S_D300_krig_var"/>
   <GsTLGridProperty filepath="properties/property__l2_S_D400.sgems" type="Continuous" name="l2_S_D400"/>
+  <GsTLGridProperty filepath="properties/property__l2_S_D400_krig_var.sgems" type="Continuous" name="l2_S_D400_krig_var"/>
   <GsTLGridProperty filepath="properties/property__l2_S_D500.sgems" type="Continuous" name="l2_S_D500"/>
+  <GsTLGridProperty filepath="properties/property__l2_S_D500_krig_var.sgems" type="Continuous" name="l2_S_D500_krig_var"/>
   <GsTLGridProperty filepath="properties/property__l2_S_D600.sgems" type="Continuous" name="l2_S_D600"/>
+  <GsTLGridProperty filepath="properties/property__l2_S_D600_krig_var.sgems" type="Continuous" name="l2_S_D600_krig_var"/>
   <GsTLGridProperty filepath="properties/property__l2_S_D700.sgems" type="Continuous" name="l2_S_D700"/>
+  <GsTLGridProperty filepath="properties/property__l2_S_D700_krig_var.sgems" type="Continuous" name="l2_S_D700_krig_var"/>
   <GsTLGridProperty filepath="properties/property__l2_S_D800.sgems" type="Continuous" name="l2_S_D800"/>
+  <GsTLGridProperty filepath="properties/property__l2_S_D800_krig_var.sgems" type="Continuous" name="l2_S_D800_krig_var"/>
   <GsTLGridProperty filepath="properties/property__l2_S_D900.sgems" type="Continuous" name="l2_S_D900"/>
+  <GsTLGridProperty filepath="properties/property__l2_S_D900_krig_var.sgems" type="Continuous" name="l2_S_D900_krig_var"/>
  </Properties>
  <Regions/>
  <PropertyGroups>
@@ -104,6 +114,6 @@
   <GsTLGridPropertyGroup memberProperties="L2_GOK_Gau_ests_1-O;L2_GOK_Gau_ests_1-O_krig_var;L2_GOK_Gau_ests_10-O;L2_GOK_Gau_ests_10-O_krig_var;L2_GOK_Gau_ests_2-O;L2_GOK_Gau_ests_2-O_krig_var;L2_GOK_Gau_ests_3-O;L2_GOK_Gau_ests_3-O_krig_var;L2_GOK_Gau_ests_4-O;L2_GOK_Gau_ests_4-O_krig_var;L2_GOK_Gau_ests_5-O;L2_GOK_Gau_ests_5-O_krig_var;L2_GOK_Gau_ests_6-O;L2_GOK_Gau_ests_6-O_krig_var;L2_GOK_Gau_ests_7-O;L2_GOK_Gau_ests_7-O_krig_var;L2_GOK_Gau_ests_8-O;L2_GOK_Gau_ests_8-O_krig_var;L2_GOK_Gau_ests_9-O;L2_GOK_Gau_ests_9-O_krig_var" type="General" name="L2_GOK_Gau"/>
   <GsTLGridPropertyGroup memberProperties="L2_GOK_Sph_ests_1-O;L2_GOK_Sph_ests_1-O_krig_var;L2_GOK_Sph_ests_10-O;L2_GOK_Sph_ests_10-O_krig_var;L2_GOK_Sph_ests_2-O;L2_GOK_Sph_ests_2-O_krig_var;L2_GOK_Sph_ests_3-O;L2_GOK_Sph_ests_3-O_krig_var;L2_GOK_Sph_ests_4-O;L2_GOK_Sph_ests_4-O_krig_var;L2_GOK_Sph_ests_5-O;L2_GOK_Sph_ests_5-O_krig_var;L2_GOK_Sph_ests_6-O;L2_GOK_Sph_ests_6-O_krig_var;L2_GOK_Sph_ests_7-O;L2_GOK_Sph_ests_7-O_krig_var;L2_GOK_Sph_ests_8-O;L2_GOK_Sph_ests_8-O_krig_var;L2_GOK_Sph_ests_9-O;L2_GOK_Sph_ests_9-O_krig_var" type="General" name="L2_GOK_Sph"/>
   <GsTLGridPropertyGroup memberProperties="L2_TOK_Exp_ests_1-M;L2_TOK_Exp_ests_1-M_krig_var;L2_TOK_Exp_ests_10-M;L2_TOK_Exp_ests_10-M_krig_var;L2_TOK_Exp_ests_2-M;L2_TOK_Exp_ests_2-M_krig_var;L2_TOK_Exp_ests_3-M;L2_TOK_Exp_ests_3-M_krig_var;L2_TOK_Exp_ests_4-M;L2_TOK_Exp_ests_4-M_krig_var;L2_TOK_Exp_ests_5-M;L2_TOK_Exp_ests_5-M_krig_var;L2_TOK_Exp_ests_6-M;L2_TOK_Exp_ests_6-M_krig_var;L2_TOK_Exp_ests_7-M;L2_TOK_Exp_ests_7-M_krig_var;L2_TOK_Exp_ests_8-M;L2_TOK_Exp_ests_8-M_krig_var;L2_TOK_Exp_ests_9-M;L2_TOK_Exp_ests_9-M_krig_var" type="General" name="L2_TOK_Exp"/>
-  <GsTLGridPropertyGroup memberProperties="l2_S_D100;l2_S_D1000;l2_S_D200;l2_S_D300;l2_S_D400;l2_S_D500;l2_S_D600;l2_S_D700;l2_S_D800;l2_S_D900" type="General" name="l2_S_"/>
+  <GsTLGridPropertyGroup memberProperties="l2_S_D100;l2_S_D1000;l2_S_D1000_krig_var;l2_S_D100_krig_var;l2_S_D200;l2_S_D200_krig_var;l2_S_D300;l2_S_D300_krig_var;l2_S_D400;l2_S_D400_krig_var;l2_S_D500;l2_S_D500_krig_var;l2_S_D600;l2_S_D600_krig_var;l2_S_D700;l2_S_D700_krig_var;l2_S_D800;l2_S_D800_krig_var;l2_S_D900;l2_S_D900_krig_var" type="General" name="l2_S_"/>
  </PropertyGroups>
 </Grid>
