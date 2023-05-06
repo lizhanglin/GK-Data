@@ -1,9 +1,593 @@
-
-++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 13:49:34
-
-
-++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 14:02:45
-
-
 ++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 14:09:28
 
+sample and estimated data:	Saddle_Surface(V_D5;	GOK_Exp_ests_V_D5)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:40000
+	MAE = 0.0144917	NRMSE = 0.0548404	RMSE = 0.0231216	CR = 0.998669
+	0.0144917	0.0548404	0.0231216	0.998669
+current time: 2023/02/19, 14:25:17,	
+processed time:15.8167(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 14:25:17
+
+sample and estimated data:	Saddle_Surface(V_D5;	GOK_Sph_ests_V_D5)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:40000
+	MAE = 0.0138989	NRMSE = 0.0526915	RMSE = 0.0222156	CR = 0.998722
+	0.0138989	0.0526915	0.0222156	0.998722
+current time: 2023/02/19, 14:43:01,	
+processed time:17.7333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 14:43:01
+
+
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 14:48:11
+
+
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 16:03:42
+
+sample and estimated data:	Saddle_Surface(V_D5;	GOK_Exp_ests_V_D5)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:40000
+	MAE = 0.0144917	NRMSE = 0.0548404	RMSE = 0.0231216	CR = 0.998669
+	0.0144917	0.0548404	0.0231216	0.998669
+current time: 2023/02/19, 16:09:31,	
+processed time:5.81667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 16:09:32
+
+sample and estimated data:	Saddle_Surface(V_D5;	GOK_Sph_ests_V_D5)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:40000
+	MAE = 0.0138989	NRMSE = 0.0526915	RMSE = 0.0222156	CR = 0.998722
+	0.0138989	0.0526915	0.0222156	0.998722
+current time: 2023/02/19, 16:15:28,	
+processed time:5.93333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 16:15:28
+
+sample and estimated data:	Saddle_Surface(V_D5;	GOK_Gau_ests_V_D5)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:40000
+	MAE = 0.0110971	NRMSE = 0.0422119	RMSE = 0.0177972	CR = 0.999127
+	0.0110971	0.0422119	0.0177972	0.999127
+current time: 2023/02/19, 16:20:59,	
+processed time:5.51667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 16:20:59
+
+sample and estimated data:	Saddle_Surface(V_D5;	TOK_Exp_ests_V_D5)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:40000
+	MAE = 0.0860187	NRMSE = 0.300571	RMSE = 0.126726	CR = 0.981541
+	0.0860187	0.300571	0.126726	0.981541
+current time: 2023/02/19, 16:21:01,	
+processed time:0.0333333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 17:03:13
+
+sample and estimated data:	porosity(l2_S_D300;	L2_GOK_Sph_ests_3-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0195061	NRMSE = 0.361077	RMSE = 0.0292883	CR = 0.93496
+	0.0195061	0.361077	0.0292883	0.93496
+current time: 2023/02/19, 17:10:01,	
+processed time:6.8(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 17:10:01
+
+sample and estimated data:	porosity(l2_S_D300;	L2_GOK_Gau_ests_3-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0192968	NRMSE = 0.360776	RMSE = 0.0292638	CR = 0.934615
+	0.0192968	0.360776	0.0292638	0.934615
+current time: 2023/02/19, 17:16:28,	
+processed time:6.45(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 17:16:28
+
+sample and estimated data:	porosity(l2_S_D300;	L2_GOK_Exp_ests_3-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0198529	NRMSE = 0.363997	RMSE = 0.0295251	CR = 0.934038
+	0.0198529	0.363997	0.0295251	0.934038
+current time: 2023/02/19, 17:23:08,	
+processed time:6.66667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 17:23:08
+
+sample and estimated data:	porosity(l2_S_D300;	L2_TOK_Exp_ests_3-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0235126	NRMSE = 0.428378	RMSE = 0.0347472	CR = 0.906435
+	0.0235126	0.428378	0.0347472	0.906435
+current time: 2023/02/19, 17:23:11,	
+processed time:0.05(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 17:28:31
+
+sample and estimated data:	porosity(l2_S_D100;	L2_GOK_Sph_ests_1-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.031431	NRMSE = 0.55741	RMSE = 0.0452135	CR = 0.839498
+	0.031431	0.55741	0.0452135	0.839498
+current time: 2023/02/19, 17:34:33,	
+processed time:6.03333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 17:34:33
+
+sample and estimated data:	porosity(l2_S_D200;	L2_GOK_Sph_ests_2-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0214351	NRMSE = 0.409186	RMSE = 0.0331905	CR = 0.914462
+	0.0214351	0.409186	0.0331905	0.914462
+current time: 2023/02/19, 17:40:51,	
+processed time:6.3(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 17:40:52
+
+sample and estimated data:	porosity(l2_S_D300;	L2_GOK_Sph_ests_3-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0195061	NRMSE = 0.361077	RMSE = 0.0292883	CR = 0.93496
+	0.0195061	0.361077	0.0292883	0.93496
+current time: 2023/02/19, 17:46:43,	
+processed time:5.85(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 17:46:43
+
+sample and estimated data:	porosity(l2_S_D400;	L2_GOK_Sph_ests_4-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0152859	NRMSE = 0.283722	RMSE = 0.0230137	CR = 0.961242
+	0.0152859	0.283722	0.0230137	0.961242
+current time: 2023/02/19, 17:53:03,	
+processed time:6.33333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 17:53:03
+
+sample and estimated data:	porosity(l2_S_D500;	L2_GOK_Sph_ests_5-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0146673	NRMSE = 0.271887	RMSE = 0.0220537	CR = 0.965177
+	0.0146673	0.271887	0.0220537	0.965177
+current time: 2023/02/19, 17:58:52,	
+processed time:5.81667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 17:58:52
+
+sample and estimated data:	porosity(l2_S_D600;	L2_GOK_Sph_ests_6-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0129248	NRMSE = 0.249833	RMSE = 0.0202649	CR = 0.970065
+	0.0129248	0.249833	0.0202649	0.970065
+current time: 2023/02/19, 18:05:06,	
+processed time:6.23333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 18:05:06
+
+sample and estimated data:	porosity(l2_S_D700;	L2_GOK_Sph_ests_7-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0123296	NRMSE = 0.232194	RMSE = 0.0188341	CR = 0.97444
+	0.0123296	0.232194	0.0188341	0.97444
+current time: 2023/02/19, 18:12:20,	
+processed time:7.23333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 18:12:20
+
+sample and estimated data:	porosity(l2_S_D800;	L2_GOK_Sph_ests_8-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0119164	NRMSE = 0.229116	RMSE = 0.0185844	CR = 0.975002
+	0.0119164	0.229116	0.0185844	0.975002
+current time: 2023/02/19, 18:19:08,	
+processed time:6.8(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 18:19:08
+
+sample and estimated data:	porosity(l2_S_D900;	L2_GOK_Sph_ests_9-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0109282	NRMSE = 0.210645	RMSE = 0.0170862	CR = 0.978473
+	0.0109282	0.210645	0.0170862	0.978473
+current time: 2023/02/19, 18:26:12,	
+processed time:7.06667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 18:26:12
+
+sample and estimated data:	porosity(l2_S_D1000;	L2_GOK_Sph_ests_10-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0102163	NRMSE = 0.193422	RMSE = 0.0156891	CR = 0.981968
+	0.0102163	0.193422	0.0156891	0.981968
+current time: 2023/02/19, 18:32:35,	
+processed time:6.38333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 18:32:36
+
+sample and estimated data:	porosity(l2_S_D100;	L2_GOK_Gau_ests_1-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0299091	NRMSE = 0.538138	RMSE = 0.0436503	CR = 0.850163
+	0.0299091	0.538138	0.0436503	0.850163
+current time: 2023/02/19, 18:40:04,	
+processed time:7.46667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 18:40:04
+
+sample and estimated data:	porosity(l2_S_D200;	L2_GOK_Gau_ests_2-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0205366	NRMSE = 0.399701	RMSE = 0.0324212	CR = 0.91784
+	0.0205366	0.399701	0.0324212	0.91784
+current time: 2023/02/19, 18:46:57,	
+processed time:6.88333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 18:46:58
+
+sample and estimated data:	porosity(l2_S_D300;	L2_GOK_Gau_ests_3-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0192968	NRMSE = 0.360776	RMSE = 0.0292638	CR = 0.934615
+	0.0192968	0.360776	0.0292638	0.934615
+current time: 2023/02/19, 18:54:04,	
+processed time:7.1(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 18:54:04
+
+sample and estimated data:	porosity(l2_S_D400;	L2_GOK_Gau_ests_4-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0154588	NRMSE = 0.286574	RMSE = 0.0232451	CR = 0.960009
+	0.0154588	0.286574	0.0232451	0.960009
+current time: 2023/02/19, 19:00:38,	
+processed time:6.56667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 19:00:39
+
+sample and estimated data:	porosity(l2_S_D500;	L2_GOK_Gau_ests_5-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0153806	NRMSE = 0.282613	RMSE = 0.0229238	CR = 0.962121
+	0.0153806	0.282613	0.0229238	0.962121
+current time: 2023/02/19, 19:07:02,	
+processed time:6.38333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 19:07:02
+
+sample and estimated data:	porosity(l2_S_D600;	L2_GOK_Gau_ests_6-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.013616	NRMSE = 0.261474	RMSE = 0.0212091	CR = 0.967143
+	0.013616	0.261474	0.0212091	0.967143
+current time: 2023/02/19, 19:13:15,	
+processed time:6.21667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 19:13:15
+
+sample and estimated data:	porosity(l2_S_D700;	L2_GOK_Gau_ests_7-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.013351	NRMSE = 0.247159	RMSE = 0.020048	CR = 0.971103
+	0.013351	0.247159	0.020048	0.971103
+current time: 2023/02/19, 19:19:07,	
+processed time:5.86667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 19:19:07
+
+sample and estimated data:	porosity(l2_S_D800;	L2_GOK_Gau_ests_8-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:29999
+	MAE = 0.0129734	NRMSE = 0.246193	RMSE = 0.0199698	CR = 0.971213
+	0.0129734	0.246193	0.0199698	0.971213
+current time: 2023/02/19, 19:25:12,	
+processed time:6.08333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 19:25:13
+
+sample and estimated data:	porosity(l2_S_D900;	L2_GOK_Gau_ests_9-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0122306	NRMSE = 0.23206	RMSE = 0.0188232	CR = 0.973946
+	0.0122306	0.23206	0.0188232	0.973946
+current time: 2023/02/19, 19:30:59,	
+processed time:5.76667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 19:30:59
+
+sample and estimated data:	porosity(l2_S_D1000;	L2_GOK_Gau_ests_10-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0115311	NRMSE = 0.213604	RMSE = 0.0173262	CR = 0.978236
+	0.0115311	0.213604	0.0173262	0.978236
+current time: 2023/02/19, 19:36:45,	
+processed time:5.76667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 19:36:46
+
+sample and estimated data:	porosity(l2_S_D100;	L2_GOK_Exp_ests_1-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0326074	NRMSE = 0.562972	RMSE = 0.0456647	CR = 0.839008
+	0.0326074	0.562972	0.0456647	0.839008
+current time: 2023/02/19, 19:43:12,	
+processed time:6.43333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 19:43:12
+
+sample and estimated data:	porosity(l2_S_D200;	L2_GOK_Exp_ests_2-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0221826	NRMSE = 0.413297	RMSE = 0.033524	CR = 0.913708
+	0.0221826	0.413297	0.033524	0.913708
+current time: 2023/02/19, 19:49:38,	
+processed time:6.43333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 19:49:39
+
+sample and estimated data:	porosity(l2_S_D300;	L2_GOK_Exp_ests_3-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0198529	NRMSE = 0.363997	RMSE = 0.0295251	CR = 0.934038
+	0.0198529	0.363997	0.0295251	0.934038
+current time: 2023/02/19, 19:56:39,	
+processed time:7(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 19:56:39
+
+sample and estimated data:	porosity(l2_S_D400;	L2_GOK_Exp_ests_4-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0153985	NRMSE = 0.284837	RMSE = 0.0231042	CR = 0.96115
+	0.0153985	0.284837	0.0231042	0.96115
+current time: 2023/02/19, 20:03:09,	
+processed time:6.5(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:03:10
+
+sample and estimated data:	porosity(l2_S_D500;	L2_GOK_Exp_ests_5-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0147448	NRMSE = 0.273753	RMSE = 0.0222051	CR = 0.964687
+	0.0147448	0.273753	0.0222051	0.964687
+current time: 2023/02/19, 20:09:47,	
+processed time:6.61667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:09:47
+
+sample and estimated data:	porosity(l2_S_D600;	L2_GOK_Exp_ests_6-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0129541	NRMSE = 0.249834	RMSE = 0.0202649	CR = 0.970089
+	0.0129541	0.249834	0.0202649	0.970089
+current time: 2023/02/19, 20:16:19,	
+processed time:6.53333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:16:20
+
+sample and estimated data:	porosity(l2_S_D700;	L2_GOK_Exp_ests_7-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0122806	NRMSE = 0.231405	RMSE = 0.0187701	CR = 0.974617
+	0.0122806	0.231405	0.0187701	0.974617
+current time: 2023/02/19, 20:23:33,	
+processed time:7.21667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:23:33
+
+sample and estimated data:	porosity(l2_S_D800;	L2_GOK_Exp_ests_8-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0118147	NRMSE = 0.227181	RMSE = 0.0184275	CR = 0.97542
+	0.0118147	0.227181	0.0184275	0.97542
+current time: 2023/02/19, 20:30:59,	
+processed time:7.43333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:30:59
+
+sample and estimated data:	porosity(l2_S_D900;	L2_GOK_Exp_ests_9-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0108616	NRMSE = 0.209713	RMSE = 0.0170106	CR = 0.97863
+	0.0108616	0.209713	0.0170106	0.97863
+current time: 2023/02/19, 20:38:39,	
+processed time:7.66667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:38:39
+
+sample and estimated data:	porosity(l2_S_D1000;	L2_GOK_Exp_ests_10-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.010172	NRMSE = 0.192636	RMSE = 0.0156254	CR = 0.982075
+	0.010172	0.192636	0.0156254	0.982075
+current time: 2023/02/19, 20:46:15,	
+processed time:7.6(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:46:15
+
+sample and estimated data:	porosity(l2_S_D100;	L2_TOK_Exp_ests_1-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0389574	NRMSE = 0.644519	RMSE = 0.0522793	CR = 0.785063
+	0.0389574	0.644519	0.0522793	0.785063
+current time: 2023/02/19, 20:46:22,	
+processed time:0.116667(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:46:23
+
+sample and estimated data:	porosity(l2_S_D200;	L2_TOK_Exp_ests_2-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0270038	NRMSE = 0.488784	RMSE = 0.039647	CR = 0.879317
+	0.0270038	0.488784	0.039647	0.879317
+current time: 2023/02/19, 20:46:26,	
+processed time:0.05(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:46:27
+
+sample and estimated data:	porosity(l2_S_D300;	L2_TOK_Exp_ests_3-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0235126	NRMSE = 0.428378	RMSE = 0.0347472	CR = 0.906435
+	0.0235126	0.428378	0.0347472	0.906435
+current time: 2023/02/19, 20:46:30,	
+processed time:0.05(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:46:30
+
+sample and estimated data:	porosity(l2_S_D400;	L2_TOK_Exp_ests_4-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0187545	NRMSE = 0.360836	RMSE = 0.0292687	CR = 0.936353
+	0.0187545	0.360836	0.0292687	0.936353
+current time: 2023/02/19, 20:46:33,	
+processed time:0.05(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:46:34
+
+sample and estimated data:	porosity(l2_S_D500;	L2_TOK_Exp_ests_5-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0174372	NRMSE = 0.31832	RMSE = 0.0258201	CR = 0.953004
+	0.0174372	0.31832	0.0258201	0.953004
+current time: 2023/02/19, 20:46:36,	
+processed time:0.0333333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:46:37
+
+sample and estimated data:	porosity(l2_S_D600;	L2_TOK_Exp_ests_6-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0152883	NRMSE = 0.289903	RMSE = 0.0235151	CR = 0.959845
+	0.0152883	0.289903	0.0235151	0.959845
+current time: 2023/02/19, 20:46:39,	
+processed time:0.0333333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:46:40
+
+sample and estimated data:	porosity(l2_S_D700;	L2_TOK_Exp_ests_7-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0142542	NRMSE = 0.271484	RMSE = 0.022021	CR = 0.965142
+	0.0142542	0.271484	0.022021	0.965142
+current time: 2023/02/19, 20:46:42,	
+processed time:0.0333333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:46:43
+
+sample and estimated data:	porosity(l2_S_D800;	L2_TOK_Exp_ests_8-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0133414	NRMSE = 0.25761	RMSE = 0.0208957	CR = 0.968297
+	0.0133414	0.25761	0.0208957	0.968297
+current time: 2023/02/19, 20:46:46,	
+processed time:0.05(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:46:46
+
+sample and estimated data:	porosity(l2_S_D900;	L2_TOK_Exp_ests_9-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0123729	NRMSE = 0.240874	RMSE = 0.0195382	CR = 0.971867
+	0.0123729	0.240874	0.0195382	0.971867
+current time: 2023/02/19, 20:46:49,	
+processed time:0.05(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/19, 20:46:49
+
+sample and estimated data:	porosity(l2_S_D1000;	L2_TOK_Exp_ests_10-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0115853	NRMSE = 0.225094	RMSE = 0.0182582	CR = 0.975351
+	0.0115853	0.225094	0.0182582	0.975351
+current time: 2023/02/19, 20:46:52,	
+processed time:0.05(Mins)
+
+------------------GK estimation with LVA Ends!--------
+
+
+// ”√cutted ≤‚ ‘
+
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/21, 11:31:05
+
+sample and estimated data:	porosity(l2_S_D300;	L2_TOK_Exp_ests_3-M)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0235128	NRMSE = 0.428381	RMSE = 0.0347475	CR = 0.906434
+	0.0235128	0.428381	0.0347475	0.906434
+current time: 2023/02/21, 11:31:07,	
+processed time:0.0333333(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/21, 11:31:14
+
+sample and estimated data:	porosity(l2_S_D300;	L2_GOK_Exp_ests_3-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0198529	NRMSE = 0.363997	RMSE = 0.0295251	CR = 0.934038
+	0.0198529	0.363997	0.0295251	0.934038
+current time: 2023/02/21, 11:39:38,	
+processed time:8.4(Mins)
+
+------------------GK estimation with LVA Ends!--------
+++++++++++++++++++ GK estimation with LVA Begins!++++++++current time: 2023/02/21, 14:08:47
+
+sample and estimated data:	porosity(l2_S_D300;	L2_GOK_Exp_ests_3-O)
+ 	 interpolation accuracy (the reference property is V):
+		 number of estimates:30000
+	MAE = 0.0198529	NRMSE = 0.363997	RMSE = 0.0295251	CR = 0.934038
+	0.0198529	0.363997	0.0295251	0.934038
+current time: 2023/02/21, 14:17:49,	
+processed time:9.03333(Mins)
+
+------------------GK estimation with LVA Ends!--------
